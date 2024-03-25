@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/layer_list"
+        android:padding="16dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="150dp"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/editTextEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Email"
+                    android:textColorHint="@color/white"
+                    android:textColor="@android:color/white"
+                    android:inputType="textEmailAddress"
+                    android:padding="10dp"/>
+
+                <EditText
+                    android:id="@+id/editTextPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/editTextEmail"
+                    android:textColorHint="@color/white"
+                    android:hint="Password"
+                    android:textColor="@android:color/white"
+                    android:inputType="textPassword"
+                    android:padding="10dp"
+                    android:layout_marginTop="10dp" />
+
+                <Button
+                    android:id="@+id/buttonLogin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/editTextPassword"
+                    android:text="Login"
+                    android:backgroundTint="@color/primary_color"
+                    android:textColor="@android:color/white"
+                    android:layout_marginTop="10dp" />
+
+                <TextView
+                    android:id="@+id/textViewRegister"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/buttonLogin"
+                    android:text="Don't have an account? Register here."
+                    android:layout_marginTop="16dp"
+                    android:textColor="@android:color/darker_gray"
+                    android:layout_centerHorizontal="true"/>
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+</layout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/feature_favorite_nav"
+    app:startDestination="@id/favouriteFragment">
+
+
+    <fragment
+        android:id="@+id/favouriteFragment"
+        android:name="com.noatnoat.feature_favourite.presentation.screen.favouritescreen.FavouriteFragment"
+        android:label="FavouriteFragment" >
+        <action
+            android:id="@+id/action_favouriteFragment_to_favouriteDetailFragment"
+            app:destination="@id/favouriteDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/favouriteDetailFragment"
+        android:name="com.noatnoat.feature_favourite.presentation.screen.detailscreen.FavouriteDetailFragment"
+        android:label="FavouriteDetailFragment" >
+        <argument
+            android:name="idMovie"
+            app:argType="string" />
+    </fragment>
+</navigation>

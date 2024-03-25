@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/feature_download_nav"
+    app:startDestination="@id/downloadFragment">
+
+    <fragment
+        android:id="@+id/downloadFragment"
+        android:name="com.noatnoat.feature_download.presentation.screen.downloadscreen.DownloadFragment"
+        android:label="DownloadFragment" />
+</navigation>

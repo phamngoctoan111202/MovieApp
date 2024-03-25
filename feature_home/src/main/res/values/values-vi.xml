@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="search">Tìm kiếm</string>
+
+    <string name="new_movies">Phim mới</string>
+    <string name="single_movies">Phim lẻ</string>
+    <string name="series_movies">Phim bộ</string>
+    <string name="tv_shows">Shows</string>
+    <string name="animation">Phim hoạt hình</string>
+    <string name="exclusive_movies">Phim độc quyền</string>
+
+
+    <string name="chinese_movies">Trung Quốc</string>
+    <string name="korean_movies">Hàn Quốc</string>
+
+    <string name="watched_movies">đã xem</string>
+    <string name="recommended_movies">đề xuất</string>
+    <string name="top10_movies">Top10</string>
+    <string name="update">mới cập nhật</string>
+    <string name="exclusive">độc quyền</string>
+
+
+
+</resources>
